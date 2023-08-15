@@ -1,13 +1,14 @@
+import Slider from "./components/Slider";
 import Header from "./components/Header";
+import Cards from "./components/Cards";
 
 export default function Home() {
  return (
-    <div>
+    <div className="w-screen h-screen ">
       <Header />
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <h1
-          className="font-bold text-purple-800 text-lg uppercase hover:text-black"
-        >Cursos free</h1>
+      <main>
+        <Slider />
+        <Cards />
       </main>
     </div>
   )
