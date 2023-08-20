@@ -9,7 +9,7 @@ export default function Cards() {
                 Cursos
             </h1>
             <section id="cards"
-                className={`flex flex-wrap min-w-full justify-center items-center mb-8 mt-4 gap-3`}
+                className={`flex flex-wrap w-full justify-center items-center mb-8 mt-4 gap-3`}
                 >
                 <Card/>
                 <Card/>

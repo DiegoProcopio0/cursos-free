@@ -3,7 +3,7 @@ import logo from "../../public/assets/images/logo.png"
 
 export default function Header() {
     return (
-        <header className="flex items-center justify-between py-4 px-3 bg-gray-200 sm:px-10 md:P-15">
+        <header className="flex items-center justify-between py-4 px-3 bg-gray-200 sm:px-10 md:P-15 w-full ">
             <Image
                 className="sm:w-14 w-12 md:w-16"
                 src={logo}
