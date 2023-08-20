@@ -11,7 +11,7 @@ const scrollToTop = () =>{
 
 export default function Footer() {
     return (
-       <footer className="flex justify-between items-center p-4 w-full bg-gray-200 border-t-2 border-t-gray-700 py-5 bottom-0 inherit">
+       <footer className="flex justify-between items-center p-4 w-full bg-gray-300 border-t-2 border-t-gray-700 py-5 bottom-0 inherit">
             <h2 className="sr-only">
                 Footer
             </h2>

@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 export default function Home() {
  return (
-    <div className="w-screen h-screen ">
+    <div className="max-w-full h-screen   ">
       <Header />
       <main>
         <Slider />

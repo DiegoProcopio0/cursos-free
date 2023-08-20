@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Card() {
     return (
         <div className={`
-             min-h-min mb-4 flex flex-col items-center justify-center py-2 px-3 bg-gray-200 w-80 rounded-md hover:scale-110 transition-all ease-in-out
+             min-h-min mb-4 flex flex-col items-center justify-center py-2 px-3 bg-slate-300 w-80 rounded-md hover:scale-110 transition-all ease-in-out
         `}>
             <Link href="https://www.google.com/">
                 <Image 
