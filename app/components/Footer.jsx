@@ -17,7 +17,7 @@ export default function Footer() {
             </h2>
             <div className="flex flex-col gap-2">
                 <button 
-                    className="text-gray-700 hover:text-gray-900 hover:font-bold"
+                    className="text-gray-800 hover:text-gray-900 hover:font-bold font-semibold"
                     onClick={scrollToTop}
                 >
                     VOLTAR AO TOPO
