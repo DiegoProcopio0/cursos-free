@@ -7,7 +7,8 @@ export default function About() {
            <div className=" max-w-xs text-center">
                 <h2 className="font-bold text-xl mb-3">Sobre nós</h2>
                 <p className="font-medium text-white  opacity-75">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, odio. Voluptatibus enim minima dolorem? Totam laboriosam sed vel earum placeat, error consequatur omnis optio! Fuga perspiciatis dolorum aliquam impedit maiores.
+                    Somos 5 estudantes da área de programação que ao vermos pessoas com dificuldades em achar cursos de qualidade e com certificado.
+                    Tendo isso em mente decidimos criar este projeto, que visa facilitar a busca por esses cursos, assim ajudando pessoas que estão na mesma situação que já estivemos.
                 </p>
            </div>
            <div>
