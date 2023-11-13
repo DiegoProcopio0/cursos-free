@@ -1,21 +1,23 @@
 import  Card  from "./Card";
-import Html from "../../public/assets/images/html.png" 
+import Python from "../../public/assets/images/python.png"
+import Php from "../../public/assets/images/php.png"
+import Image from "next/image"
 
 export default function Favorites() {
     const cards = [
         {
-            course:"HTML – Avançado",
-            link: "https://www.ev.org.br/cursos/html-avancado",
-            image: Html,
-            school: "Instituição Bradesco",
-            description: "Dividido em quatro módulos, este curso traz conceitos que complementam o conteúdo apresentado em nosso curso de HTML – Básico." 
+            course:"PHP Básico",
+            link: "https://www.cursoemvideo.com/curso/php-basico/",
+            image: Php,
+            school: "Curso em video",
+            description: "Nesse Curso Grátis de PHP para Iniciantes, você vai aprender os primeiros passos para criar sites que utilizem a tecnologia PHP incorporada. Para isso" 
         },
         {
-            course:"HTML – Avançado",
-            link: "https://www.ev.org.br/cursos/html-avancado",
-            image: Html,
-            school: "Instituição Bradesco",
-            description: "Dividido em quatro módulos, este curso traz conceitos que complementam o conteúdo apresentado em nosso curso de HTML – Básico." 
+            course:"Python 3",
+            link: "https://www.cursoemvideo.com/curso/python-3-mundo-1/",
+            image: Python,
+            school: "Curso em video",
+            description: "Python é uma linguagem ultra moderna, utilizada por grandes empresas como Google, YouTube, Industrial Light & Magic, Globo e muitas outras. Fácil de aprender, com código limpo e organizado" 
         },
     ]
 
