@@ -46,7 +46,7 @@ const Navbar = () => {
 
         {/* Menu de hambúrguer visível apenas quando está aberto */}
         {isMenuOpen && (
-          <div className="md:hidden absolute top-16 left-0 right-0 w-full mx-auto bg-gray-500">
+          <div className="text-center flex items-center justify-center mt-1 gap-4 md:hidden absolute top-16 left-0 right-0  bg-gray-500 text-xl font-bold">
             <Link href="/login" legacyBehavior>
               Login
             </Link>
