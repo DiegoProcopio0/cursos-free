@@ -7,6 +7,7 @@ import Php from "../../public/assets/images/php.png"
 import Image from "next/image"
 import logo from "../../public/assets/images/logo.png"
 import Input from "../components/Input"
+import Menu from "../components/Menu"
 import React, { useState }  from 'react';
 import FilteredComponents from "./FilteredComponents"
 import About from "./About";
@@ -61,18 +62,14 @@ export default function Header() {
         <div>        
             <header className="flex items-center justify-between py-4 px-3 bg-gray-200 sm:px-10 md:P-15 w-full ">
                 <Image
-                    className="sm:w-14 w-12 md:w-16"
+                    className="hidden sm:flex sm:w-14 w-12 md:w-16"
                     src={logo}
                     alt="Logo do nosso site, onManabi"
                 /> 
                 <Input 
                     onSearch={handleSearch}
                 />
-                <nav className="hidden sm:flex">
-                    <ul>
-                        <li className="font-semibold cursor-pointer text-cyan-700 md:text-lg">Cursos Free</li>
-                    </ul>
-                </nav>
+                <Menu />
             </header>
             <Slider />
             <main className="sm:px-9">
